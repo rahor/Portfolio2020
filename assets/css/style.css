@@ -1,0 +1,160 @@
+.intro{
+    display: flex;
+    justify-content:space-around;
+    max-width: 75%;
+    margin: auto;
+    align-items: center;
+    padding: 20rem 0;
+}
+
+.intro p{
+    max-width: 30%;
+}
+
+.intro div{
+    display: flex;
+    flex-direction: column ;
+}
+
+.bluelink{
+    color: var(--color-main4);
+  border-bottom: 1px solid var(--color-main4);
+  line-height: 3rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+nav{
+    position: fixed;
+    top: 4rem;
+    /* right: 8rem; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5rem;
+    align-items: center;
+}
+
+nav img{
+    max-width: 80%;
+}
+
+.projet{
+    width: 450px;
+    padding-bottom: 2rem;
+    display: block;
+
+}
+
+.projet:last-of-type{
+    padding-bottom: 8rem;
+}
+.imageP{
+    max-width: 100%;
+    height: 30rem;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.imageP::before{
+    position: absolute;
+    left:-10rem;
+    z-index: -1;
+    top:-10rem;
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+}
+
+.imageP::after{
+    content:url(../img/RectangleBleu.svg) ;
+    position: absolute;
+    right:-10rem;
+    z-index: -1;
+    bottom:-10rem;
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+    fill:black;
+}
+
+.projet:nth-child(1) .imageP::before{
+    content:url(../img/projetColor1.png) ;
+}
+
+.projet:nth-child(4) .imageP::before{
+    content:url(../img/AromaBefore.svg) ;
+}
+/* 
+.projet:nth-child(4) .imageP::before{
+    content:url(../img/wedoBefore.svg) ;
+} */
+
+
+.projet:nth-child(3) .imageP::before{
+    content:url(../img/uxuiBefore.svg) ;
+}
+.projet:nth-child(3) .imageP::after{
+    content:url(../img/RectangleBleu.svg) ;
+}
+/* .projet:nth-child(4) .imageP::after{
+    content:url(../img/RectancleJaune.svg) ;
+} */
+
+.projet:nth-child(2) .imageP::after{
+    content:url(../img/RectangleRose.svg) ;
+}
+.projet:nth-child(4) .imageP::after{
+    content:url(../img/RectangleRose.svg) ;
+}
+
+.imageP img{
+    max-height: 100%;
+}
+
+.h2project{
+    margin-top: -8rem;
+    position: relative;
+}
+
+.droite{
+    margin-left:auto;
+     margin-right:0; 
+}
+
+.span1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.fleches{
+    max-width: 99%;
+    position: absolute;
+    bottom:1rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fleches>*{
+    transition: transform .8s ease-in-out;
+    -webkit-transition: transform .8s ease-in-out;
+    -moz-transition: transform .8s ease-in-out;
+    -ms-transition: transform .8s ease-in-out;
+    -o-transition: transform .8s ease-in-out;
+    max-width:4%;
+}
+
+.fleches:hover>*{
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
