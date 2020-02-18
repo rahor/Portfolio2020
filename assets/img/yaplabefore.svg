@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="372.549" height="372.549" viewBox="0 0 372.549 372.549">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 225 225">
+      <image width="225" height="225" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <filter id="NoPath" x="0" y="0" width="372.549" height="372.549" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#fc6e83"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#NoPath)">
+    <g id="NoPath-2" data-name="NoPath" transform="translate(18 18)" stroke="#fc6e83" stroke-width="4" fill="url(#pattern)">
+      <ellipse cx="168.274" cy="168.274" rx="168.274" ry="168.274" stroke="none"/>
+      <ellipse cx="168.274" cy="168.274" rx="166.274" ry="166.274" fill="none"/>
+    </g>
+  </g>
+</svg>

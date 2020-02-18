@@ -82,6 +82,7 @@ h2 {
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-direction: column;
 }
 
 a{
@@ -106,4 +107,10 @@ a{
 
 .centertext{
   text-align: center;
+}
+
+
+.subtitle{
+  max-width: 40%; 
+  padding-top: 4rem;
 }
