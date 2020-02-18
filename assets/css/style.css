@@ -29,7 +29,7 @@ nav{
     top: 4rem;
     /* right: 8rem; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     padding: 0 5rem;
     align-items: center;
@@ -192,8 +192,16 @@ nav img{
 
 .button1:hover{
     animation: border-flicker 2s linear forwards;
- }
+    -webkit-animation: border-flicker 2s linear forwards;
+}
 
+ .bluelink:hover, .email:hover{
+    animation: border-flicker2 2s linear forwards;
+    -webkit-animation: border-flicker2 2s linear forwards;
+}
+
+
+ 
 
  /* border: 5px solid #707070; */
 @keyframes border-flicker {
@@ -247,3 +255,153 @@ nav img{
       box-shadow: 0 0 10px -1px rgb(230, 0, 120)  inset;
     }
   }
+
+  @keyframes border-flicker2 {
+    2% {
+      color: #fcc23d;
+      text-shadow: 0 0 10px rgb(230, 0, 120);
+      
+    }
+    
+    16% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+       color: #fcc23d;
+      text-shadow: 0 0 10px rgb(230, 0, 120);
+      
+    }
+    22% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    28% {
+      color: #fcc23d;
+      text-shadow: 0 0 10px rgb(230, 0, 120);
+      
+    }
+    31% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+      
+    }
+  
+    54% {
+      color: #fcc23d;
+      text-shadow: 0 0 10px rgb(230, 0, 120);
+      
+    }
+  
+  
+    100% {
+      color:#fcc23d;
+      text-shadow: 0 0 10px rgb(230, 0, 120);
+      
+    }
+  }
+
+  .contact{
+      padding: 8rem 20rem;
+      height: 80%;
+  }
+
+  .contact .text{
+      padding-top: 8rem;
+      max-width: 70%;
+      line-height: 4rem;
+      font-size: 2.5rem;
+  }
+
+  .email{
+      font-size: 4rem;
+      font-weight: 700;
+      padding-top: 5rem;
+      color: var(--color-main4);
+      display:inline-block;
+  }
+
+
+  .flexcontact{
+      display: flex;
+      align-items: center;
+
+  }
+
+  .buttonsContact {
+      display: flex;
+      flex-direction: column;
+    
+    }
+
+    .buttonsContact a{
+        font-size: 3rem;
+        padding: 2rem;
+        text-align: center;
+        text-decoration: underline;
+        color: var(--color-main4);
+    }
+
+
+  .flexcontact div:first-of-type{
+      max-width: 70%;
+  }
+
+  .test1{
+      cursor: url(../img/fleche.svg) 4 12 , auto;
+  }
+
+  .dessin{
+      position: absolute;
+  }
+
+  .dessin img{
+      max-width: 100%;
+  }
+
+  .dessin:nth-of-type(1){
+      left: 10rem;
+      top: 15rem;
+      width: 25rem;
+  }
+
+  /* red */
+  .dessin:nth-of-type(2){
+    right: 8rem;
+    bottom: 7rem;
+    width: 25rem;
+}
+
+/* suncity */
+.dessin:nth-of-type(3){
+    top: 10rem;
+    right: 10rem;
+    width: 25rem;
+}
+
+/* Sunnjaune */
+.dessin:nth-of-type(4){
+    left: 20rem;
+    bottom:2rem;
+    width: 20rem;
+}
+
+/* 2019 */
+.dessin:nth-of-type(5){
+    left: 45%;
+    top: 10%;
+    width: 10rem;
+}
+
+/* sunncouv */
+.dessin:nth-of-type(6){
+    left: 50%;
+    bottom: 1rem;
+    width: 15rem;
+}
+
+
+.dessinclass{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}

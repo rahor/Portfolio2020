@@ -38,8 +38,13 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   line-height: 2.6rem;
+  cursor: url(../img/cursor.png), auto;
 }
 
+
+a,button{
+  cursor: url(../img/pointer.png), pointer;
+}
 .bold{
   font-weight: bold;
 }
@@ -55,6 +60,10 @@ h1 {
   line-height: 6rem;
   }
 
+
+.title{
+  font-size: 10rem;
+}
 
 h2 {
   font-size: 5rem;
@@ -113,4 +122,9 @@ a{
 .subtitle{
   max-width: 40%; 
   padding-top: 4rem;
+}
+
+footer .copy{
+  font-size: 1.5rem;
+  padding:2rem;
 }
