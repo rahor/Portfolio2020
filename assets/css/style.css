@@ -8,7 +8,7 @@
 }
 
 .intro p{
-    max-width: 30%;
+    max-width: 33%;
 }
 
 .intro div{
@@ -18,10 +18,10 @@
 
 .bluelink{
     color: var(--color-main4);
-  border-bottom: 1px solid var(--color-main4);
   line-height: 3rem;
   padding-top: 1rem;
   text-align: center;
+  text-decoration: underline;
 }
 
 nav{
@@ -174,11 +174,11 @@ nav img{
 }
 
 .projet:hover .imageP::before{
-    transform: translateX(40px) translateY(40px) scale(.7);
-    -webkit-transform: translateX(40px) translateY(40px) scale(.7);
-    -moz-transform: translateX(40px) translateY(40px) scale(.7);
-    -ms-transform: translateX(40px) translateY(40px) scale(.7);
-    -o-transform: translateX(40px) translateY(40px) scale(.7);
+    transform: translateX(40px) translateY(40px) scale(.7) rotate(2deg);
+    -webkit-transform: translateX(40px) translateY(40px) scale(.7) rotate(2deg);
+    -moz-transform: translateX(40px) translateY(40px) scale(.7) rotate(2deg);
+    -ms-transform: translateX(40px) translateY(40px) scale(.7) rotate(2deg);
+    -o-transform: translateX(40px) translateY(40px) scale(.7) rotate(2deg);
 }
 
 .projet:hover .imageP::after{
