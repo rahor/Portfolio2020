@@ -405,3 +405,87 @@ nav img{
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
+
+
+
+section div img{
+    max-width: 100%;
+}
+
+.banner {
+    height: 70%;
+    width: 100%;
+    background-image: url(../img/colors1.jpg);
+    background-position: center;
+}
+
+
+.infos{
+    display: flex;
+}
+
+.infos_projet{
+    font-size: 1.7rem;
+    width: 25%;
+    margin-right: 10rem;
+}
+
+
+.infos_intro{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+
+.credit_infos{
+    display: flex; 
+}
+
+
+.credit_infos p{
+    padding-right: 3rem;
+    padding-top: 3rem;
+    line-height: 4rem;
+}
+
+.imageprojet{
+    padding: 2rem 0;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
+
+
+.imageP2{
+    max-width: 100%;
+    height: 20rem;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.imageP2 img{
+    max-height: 100%;
+}
+
+
+.h2project2{
+    font-size: 4rem;
+    margin-top: -6rem;
+    line-height: 5rem;
+}
+
+.projetSimilaire{
+    display: flex;
+}
+
+.margin{
+    padding : 3rem
+}
+
+video{
+    margin: auto;
+    display: block;
+}
