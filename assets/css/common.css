@@ -57,9 +57,13 @@ h1, h2, button{
 
 h1 {
   font-size: 5rem;
-  line-height: 6rem;
+  line-height: 10rem;
   }
 
+/* 400
+
+401 960
+961 */
 
 .title{
   font-size: 10rem;
@@ -97,6 +101,7 @@ h2 {
 a{
   text-decoration: none;
   color: var(--color-text);
+  text-align: center;
 }
 
 .button1{

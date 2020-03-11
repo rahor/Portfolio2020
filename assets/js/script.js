@@ -6,7 +6,7 @@ console.log(yo)
 
 yo.addEventListener('click', ()=>{
 
-  console.log("ok")
+
   element_to_scroll_to.scrollIntoView({behavior: "smooth"});
 
 })

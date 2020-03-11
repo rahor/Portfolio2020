@@ -44,7 +44,7 @@ nav img{
 
 .projet{
     width: 450px;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem;
     display: block;
 
 }
@@ -308,7 +308,7 @@ nav img{
 
   .contact .text{
       padding-top: 8rem;
-      max-width: 70%;
+      max-width: 90%;
       line-height: 4rem;
       font-size: 2.5rem;
   }
@@ -343,9 +343,9 @@ nav img{
     }
 
 
-  .flexcontact div:first-of-type{
+  /* .flexcontact div:first-of-type{
       max-width: 70%;
-  }
+  } */
 
   .test1{
       cursor: url(../img/fleche.svg) 4 12 , auto;
@@ -415,19 +415,36 @@ section div img{
 .banner {
     height: 70%;
     width: 100%;
-    background-image: url(../img/colors1.jpg);
+    background-image: url(../img/banner/bannercolor.jpg);
     background-position: center;
 }
 
+.bannerAroma{
+    background-image: url(../../img/aromafull.jpg);
+}
+
+.bannerUx{
+    background-image: url(../img/banner/bannerUx.jpg
+    );
+
+    background-size: cover;
+}
+
+.bannerYapla{
+    background-image: url(../img/banner/bannerYapla.png);
+    background-size: cover;
+}
 
 .infos{
     display: flex;
+    padding-top: 10rem;
 }
 
 .infos_projet{
     font-size: 1.7rem;
     width: 25%;
     margin-right: 10rem;
+   
 }
 
 
@@ -479,6 +496,7 @@ section div img{
 
 .projetSimilaire{
     display: flex;
+    justify-content: space-between;
 }
 
 .margin{
@@ -531,3 +549,150 @@ video{
         transform: translate3d(0, 0, 0);
     }
 }
+
+
+
+@media screen and (max-width: 995px) {
+    .title{
+        font-size: 5rem;
+    }
+
+    .subtitle{
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    .dessin img {
+        max-width: 40%;
+    }
+
+    .contact .text {
+        padding-top: 2rem;}
+
+        .intro {
+            max-width: 85%;
+            padding: 10rem 0;
+        }
+
+        .contact {
+            padding: 2rem 20rem;
+            height: 80%;
+        }
+
+        .center2 {
+            padding: 15rem 3rem 1rem 3rem;
+        }
+
+        .description {
+            padding: 2rem 0;
+            max-width: 100%;
+            
+        }
+
+        .raphael{
+            font-size: 2.5rem;
+        }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    nav{
+        padding: 0;
+    }
+}
+
+  @media screen and (max-width: 742px) {
+
+    .intro p{
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+
+    .intro div {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .projet {
+        width: 80%;
+        padding-bottom: 8rem;
+        display: block;
+        margin: auto;
+    }
+
+    main{
+        padding: 0 1rem;
+    }
+
+    .imageP img {
+        max-height: 80%;
+    }
+
+    .projet .imageP::before, .projet .imageP::after{
+        display: none;
+    }
+
+    h2{
+        line-height: 3rem;
+    }
+
+    .dessin:nth-of-type(1) {
+        left: 10rem;
+        top: 5rem;
+        width: 25rem;
+    }
+
+    .contact {
+        padding: 0 5rem;
+        height: 80%;
+        max-width: 100%;
+       
+    }
+
+    .contact p{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    
+    .email{
+        font-size: 3rem;
+    }
+  
+    section {
+        padding: 0 2rem;
+    }
+
+
+    .contact .text {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    /* .dessin img{
+        display: none;
+    } */
+/* 
+    .dessin {
+        right: 8rem;
+        bottom: 7rem;
+        width: 25rem;
+    } */
+    .dessin:nth-child(odd){
+        position: absolute;
+        top: 0;
+    }
+
+  }
+
+
+
+.projetSimilaire .projet h2{
+    font-size: 2rem;
+  }

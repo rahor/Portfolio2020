@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 995px) {
+    
+    section{
+        padding: 2rem 4rem;
+        max-width: 100%;
+    }
+    
+    
+    .section1, .section2{
+        padding: 2rem 1rem;
+    }
+    .infos_projet{
+        font-size: 1.5rem;
+    }
+
+
+
+    .credit_infos p {
+        padding-right: 3rem;
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        line-height: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 674px) {
+
+.projetSimilaire{
+    flex-direction: column;
+}
+
+.infos{
+    flex-direction: column;
+    
+}
+
+.infos_projet{
+    padding-bottom: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+
+
+section {
+    padding: 2rem 7rem;
+}
